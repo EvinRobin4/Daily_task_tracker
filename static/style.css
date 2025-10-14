@@ -1,0 +1,107 @@
+/* ------------------------------
+   Body styling
+   Sets font, full screen height, padding, center alignment, 
+   background gradient, and text color
+------------------------------ */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+    background: linear-gradient(to right, #9e8bd3, #6c5b7b); 
+    color: #ffffff;
+} 
+
+/* ------------------------------
+   Heading stylingg
+   Sets color and bottom margin
+------------------------------ */
+h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+/* ------------------------------
+   Form input styling
+   Padding, width, rounded corners, background, and text color
+------------------------------ */
+form input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7f7f7; 
+    color: #333;
+}
+
+/* ------------------------------
+   Form button styling
+   Padding, margin, border-radius, background gradient, text color,
+   cursor, and smooth hover transition
+------------------------------ */
+form button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #8e44ad, #6c3483); 
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* ------------------------------
+   Button hover effect
+------------------------------ */
+form button:hover {
+    background: linear-gradient(to right, #6c3483, #8e44ad);
+}
+
+/* ------------------------------
+   Task list styling
+   Removes default list style, adds top margin
+------------------------------ */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+/* ------------------------------
+   Individual task item styling
+   Margin, width, background overlay, padding, rounded corners,
+   text color, flex alignment, and subtle shadow
+------------------------------ */
+li {
+    margin: 10px auto;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.15); 
+    padding: 12px;
+    border-radius: 8px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* ------------------------------
+   Links inside task items (edit/delete/complete)
+   Removes underline, adds margin, sets color and bold font
+------------------------------ */
+li a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #ffd700; 
+    font-weight: bold;
+}
+
+/* ------------------------------
+   Completed task styling
+   Strike-through and gray color
+------------------------------ */
+.done {
+    text-decoration: line-through;
+    color: #bbbbbb;
+}

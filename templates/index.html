@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Task Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>📝 Daily Task Tracker</h1>
+
+    <form action="/add" method="POST">
+        <input type="text" name="title" placeholder="Enter new task" required>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <ul>
+        {% for task in tasks %} <!-- looop to list all the tasks -->
+        <li class="{{ 'done' if task[2] else '' }}">
+            {{ task[1] }}
+            {% if not task[2] %}
+                <a href="/complete/{{ task[0] }}">click if completed✅</a>
+            {% endif %}
+            <a href="/edit/{{ task[0] }}">click to edit✏️</a>
+            <a href="/delete/{{ task[0] }}" onclick="return confirm('Delete this task?')">Delete🗑️</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
