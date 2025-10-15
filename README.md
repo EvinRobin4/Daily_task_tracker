@@ -1,28 +1,25 @@
 Daily Task Tracker 📝
+
 Description
+A sleek, web-based Daily Task Tracker built with Python and Flask. Designed to help users efficiently manage daily tasks — add, edit, delete, and mark tasks as completed — all in a responsive and visually appealing interface.
 
-A simple web-based Daily Task Tracker built with Python and Flask.
-This app helps users manage their daily tasks efficiently with features like adding, editing, deleting, and marking tasks as completed.
+The app stores data in a cloud-based PostgreSQL database (Neon DB), enabling full online functionality. The frontend features a modern dark violet and white gradient theme, delivering a clean and intuitive user experience.
 
-Tasks are now stored in a cloud-based PostgreSQL database (Neon DB), making the app fully functional online. The frontend uses a modern dark violet and white gradient theme for a clean and visually appealing interface.
+Deployed on Render, the app is accessible from anywhere, eliminating the need for a local database.
 
-The app is deployed on Render, so it can be accessed from anywhere without the need for a local database.
+Live Demo: https://daily-task-tracker-jqfa.onrender.com
 
-Live Website: https://daily-task-tracker-jqfa.onrender.com/
+Key Features
 
-Features
+✅ Add, edit, and delete tasks effortlessly
 
-Add new tasks with a simple form
+✅ Mark tasks as completed for better tracking
 
-Edit existing tasks
+✅ Real-time task updates from Neon DB
 
-Delete tasks
+✅ Responsive design with a modern gradient theme
 
-Mark tasks as completed
-
-Tasks are dynamically fetched from a cloud PostgreSQL database (Neon DB)
-
-Responsive and visually appealing UI with gradient styling
+✅ Cloud deployment for accessibility from any device
 
 Technologies Used
 
