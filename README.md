@@ -1,4 +1,4 @@
-Daily Task Tracker 📝
+# Daily Task Tracker 📝
 
 Description
 A sleek, web-based Daily Task Tracker built with Python and Flask. Designed to help users efficiently manage daily tasks — add, edit, delete, and mark tasks as completed — all in a responsive and visually appealing interface.
