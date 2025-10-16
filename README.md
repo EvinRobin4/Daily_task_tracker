@@ -46,4 +46,4 @@ You can either:
 -- Mysql or sqllite
 #### 3. Run the Application in Vs code
 -- python app.py
-#### 4.View the app in http://127.0.0.1:5000
+
