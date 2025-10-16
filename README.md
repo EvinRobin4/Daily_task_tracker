@@ -26,3 +26,24 @@ Deployed on **Render**, the app is accessible from anywhere, eliminating the nee
 - **Database:** PostgreSQL (hosted on Neon DB)  
 - **Frontend:** HTML, CSS (gradient styling)  
 - **Deployment:** Render
+
+---
+
+## 🖥️ How to Run the Project Locally
+
+Follow the steps below to run the **Daily Task Tracker** web app on your local system.
+
+### 1. Download or Clone the Repository
+You can either:
+- **Download ZIP:** Click the **Code → Download ZIP** button from the GitHub page and extract the files  
+  or  
+- **Clone using Git:**
+  ```bash
+  git clone https://github.com/EvinRobin4/Daily_task_tracker.git
+  pip install -r requirements.txt
+
+#### 2. Set Up the Database
+-- Mysql or sqllite
+#### 3. Run the Application in Vs code
+-- python app.py
+#### 4.View the app in http://127.0.0.1:5000
